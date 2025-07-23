@@ -36,7 +36,5 @@
     </li>
   </ul>
 
-  <div>
-    <h2>TASKS OF SELECTED USER</h2>
-  </div>
+  <app-tasks [name]="selectedUser.name ? selectedUser.name : ''" />
 </main>
